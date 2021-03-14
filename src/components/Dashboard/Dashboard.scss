@@ -1,0 +1,27 @@
+#dashboard {
+    background: #dbdbdb;
+    width: 95vw;
+    height: 95vh;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-shadow: -1px -1px 21px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 21px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 21px 1px rgba(0,0,0,0.75);
+    overflow-y: auto;
+
+    .line {
+        width: calc(50% - 40px);
+        background: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 10px;
+        position: relative;
+
+    }
+}
