@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/metservice-technical-test/static/css/main.3729f21d.chunk.css",
+    "main.js": "/metservice-technical-test/static/js/main.6e6c4930.chunk.js",
+    "main.js.map": "/metservice-technical-test/static/js/main.6e6c4930.chunk.js.map",
+    "runtime-main.js": "/metservice-technical-test/static/js/runtime-main.6876192b.js",
+    "runtime-main.js.map": "/metservice-technical-test/static/js/runtime-main.6876192b.js.map",
+    "static/js/2.1398481a.chunk.js": "/metservice-technical-test/static/js/2.1398481a.chunk.js",
+    "static/js/2.1398481a.chunk.js.map": "/metservice-technical-test/static/js/2.1398481a.chunk.js.map",
+    "static/js/3.500c1d93.chunk.js": "/metservice-technical-test/static/js/3.500c1d93.chunk.js",
+    "static/js/3.500c1d93.chunk.js.map": "/metservice-technical-test/static/js/3.500c1d93.chunk.js.map",
+    "index.html": "/metservice-technical-test/index.html",
+    "static/css/main.3729f21d.chunk.css.map": "/metservice-technical-test/static/css/main.3729f21d.chunk.css.map",
+    "static/js/2.1398481a.chunk.js.LICENSE.txt": "/metservice-technical-test/static/js/2.1398481a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6876192b.js",
+    "static/js/2.1398481a.chunk.js",
+    "static/css/main.3729f21d.chunk.css",
+    "static/js/main.6e6c4930.chunk.js"
+  ]
+}

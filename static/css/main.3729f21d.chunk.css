@@ -1,0 +1,2 @@
+body{margin:0;padding:0}body>#root{width:100vw;height:100vh;overflow:hidden;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5)}#dashboard{background:#dbdbdb;width:95vw;height:95vh;margin:auto;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);box-shadow:-1px -1px 21px 1px rgba(0,0,0,.75);overflow-y:auto}#dashboard,#dashboard .line{border-radius:5px;position:relative}#dashboard .line{width:calc(50% - 40px);background:#fff;padding:10px;display:inline-block;margin:10px}
+/*# sourceMappingURL=main.3729f21d.chunk.css.map */
