@@ -51,45 +51,7 @@ export class APIService {
             body: (this._body && Object.keys(this._body).length > 0 ? this._body : null)
         };
         return fetchHook(this._url, request);
-        //console.log(data);
-        /*const [data, setData] = useState({metservice: [], isFetching: false});
-        useEffect(() => {
-            const fetchData = async () => {
-                try {
-                    setData({metservice: data.metservice, isFetching: true});
-                    const response = await fetch(this._url, request).then(res => res.json());
-                    setData({metservice: response, isFetching: false});
-                } catch(error) {
-                    setData({metservice: data.metservice, isFetching: false});
-                }
-            };
-            fetchData();
-        });
-        return data.metservice;*/
-        /*return new Promise<any>((resolve, reject) => {
-            fetch(
-                this._url, 
-                request
-            )
-            .then(res => res.json())
-            .then(data => {
-                return resolve(data);
-            })
-            .catch(() => {
-                return reject({
-                    error: "Fetch request error"
-                });
-            });
-        });*/
     }
-
-    //public request<T> (body: T): RequestInit {
-    //    return {
-    //        headers: this._headers,
-    //        method: this._method,
-    //        body: JSON.stringify(body),
-    //    }
-    //}
 }
 
 export default APIService;
